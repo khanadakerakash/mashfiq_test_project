@@ -1,0 +1,126 @@
+/* ==================================================================
+
+*  Media Queries
+
+TOC : 
+
+1. screenwidth greater than 1200px (Large Screens)
+2. screenwidth greater than 1199px (Medium Screen/Large Tablets)
+3. screenwidth less than 991px (Mobile wide/Smaller Tablets)
+4. screenwidth less than 768px (Mobile wide/Smaller Tablets)
+5. screenwidth greater than 480px (Medium Screen Mobile)
+
+/* ================================================================== */
+
+/* lg */ 
+@media (min-width: 1200px) {
+
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .trip-location h1{
+    font-size: 24px;
+  }
+
+  .mission-pro ul li {
+    margin-left: 20px;
+    padding: 5px;
+  }
+
+  .instagram-area ul li {
+    margin-left: 2px;
+  }
+
+  .instagram-area ul li img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .navbar-nav>li{
+    margin-left: 2px;
+  }
+
+  .navbar-inverse .navbar-nav > li > a {
+    padding: 5px 5px;
+  }
+
+  .instagram-area ul li {
+    margin-left: 2px;
+  }
+
+  .company-pro h2 {
+    text-align: left;
+  }
+
+  .company-pro ul li {
+    text-align: left;
+    margin-left: 0;
+  }
+}
+
+/* xs */
+@media (max-width: 767px) {
+
+  .navbar-fixed-top{
+    margin-top: 30px!important;
+  }
+
+  .company-pro h2 {
+    text-align: left;
+  }
+
+  .company-pro ul li {
+   text-align: left;
+   margin-left: 0;
+  }
+
+  .contact-info h2 {
+    text-align: left;
+  }
+
+  .contact-info p {
+    text-align: left;
+  }
+}
+
+/* XS Portrait */
+@media (max-width: 480px) {
+
+  .navbar-fixed-top{
+    margin-top: 30px!important;
+  }
+
+  #city-service-mission {
+    height: 400px;
+  }
+
+  .mission-pro ul li {
+    margin-left: 30px;
+    padding: 5px;
+  }
+
+  .instagram-area ul li {
+    margin-top: 20px;
+  }
+
+  .company-pro ul li {
+    margin-left: 120px;
+  }
+
+  .contact-info h2 {
+    text-align: center;
+  }
+
+  .contact-info p {
+    text-align: center;
+  }
+}
+
